@@ -1,0 +1,15 @@
+.header-bar {
+    height: 100vh;
+    mat-drawer {
+        width: 200px;
+    }
+    
+    mat-toolbar {
+        background: #00a0ba;
+        .auth-section {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+        }
+    }
+}
